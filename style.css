@@ -11,7 +11,7 @@ body {
     color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    padding: 104px;
+    padding: 144px;
     padding-top: 0px;
     padding-bottom: 52px;
 }
@@ -24,7 +24,8 @@ body {
 
 .logo {
     font-size: 24px;
-    color: #f9faf8
+    color: #f9faf8;
+    font-weight: bold;
 }
 
 ul {
@@ -40,14 +41,18 @@ a {
 
 .lower-header {
     display: flex;
-    justify-content: space-between;
-    gap: 62px;
+    justify-content: center;
+    gap: 32px;
 }
 
 .left-header {
     display: flex;
     flex-direction: column;
-
+    justify-content: space-between;
+    width: 440px;
+    height: 260px;
+    min-width: 440px;
+    min-height: 260px;
 }
 
 .awesome {
@@ -56,12 +61,28 @@ a {
     font-weight: 900;
 }
 
+.signup {
+    background-color: #3382f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 6px 24px;
+    border: 0px;
+    width: fit-content;
+}
+
 .right-header {
     display: flex;
-    width: 380px;
-    height: 220px;
     align-items: center;
     justify-content: center;
+
+}
+
+.placeholder {
+    display: flex;
+    width: 440px;
+    height: 260px;
     background-color: gray;
-    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
 }
