@@ -88,3 +88,12 @@ a {
     flex-basis: 100%;
     background-color: gray;
 }
+
+.contentup {
+    background-color: #ffffff;
+    color: #1F2937;
+    display: flex;
+    padding-top: 0px;
+    padding-bottom: 62px;
+    justify-content: center;
+}
