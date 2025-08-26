@@ -91,9 +91,49 @@ a {
 
 .contentup {
     background-color: #ffffff;
-    color: #1F2937;
     display: flex;
     padding-top: 0px;
     padding-bottom: 62px;
     justify-content: center;
+}
+
+.random {
+    display: flex;
+    font-weight: 900;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    font-size: 32px;
+    color: #1F2937;
+    align-self: center;
+}
+
+.ill-list {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    max-width: 224px;
+}
+
+.square {
+    display: flex;
+    border: 2px;
+    border-color: #3382f6;
+    border-style: solid;
+    border-radius: 8px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+
+.ill-text {
+    display: flex;
+    text-align:center;
 }
