@@ -38,7 +38,6 @@ body {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
-
 }
 
 ul {
@@ -151,7 +150,7 @@ a {
     display: flex;
     font-size: 36px;
     font-style: italic;
-    text-align:center;
+    text-align: center;
     max-width: 896px;
     padding-bottom: 6px;
 }
@@ -163,4 +162,52 @@ a {
     font-size: 24px;
 }
 
+.bottom {
+    background-color: #ffffff;
+    color: #ffffff;
+    display: flex;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    justify-content: center;
+}
 
+.cta {
+    display: flex;
+    justify-content:space-between;
+    background-color: #3382f6;
+    border-radius: 8px;
+    padding: 62px;
+    border: 0px;
+    width: fit-content;
+    gap: 48px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-text-b {
+    display: flex;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.cta-text-c {
+    display: flex;
+    font-size: 22px;
+}
+
+.signup-cta {
+    display: flex;
+    background-color: #3382f6;
+    border-color: #ffffff;
+    color: #ffffff;
+    border: 1px;
+    border-style: solid;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 6px 32px;
+    width: fit-content;
+    align-items: center;
+}
