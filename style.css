@@ -12,8 +12,8 @@ body {
     background-color: #1F2937;
     color: #e5e7eb;
     display: flex;
-    padding-top: 0px;
-    padding-bottom: 62px;
+    padding-top: 24px;
+    padding-bottom: 96px;
     justify-content: center;
 }
 
@@ -93,7 +93,7 @@ a {
     background-color: #ffffff;
     display: flex;
     padding-top: 0px;
-    padding-bottom: 62px;
+    padding-bottom: 96px;
     justify-content: center;
 }
 
@@ -137,3 +137,30 @@ a {
     display: flex;
     text-align:center;
 }
+
+.thor-quote {
+    background-color: #e5e7eb;
+    display: flex;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    justify-content: center;
+    color: #1f2937;
+}
+
+.t-q {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    text-align:center;
+    max-width: 896px;
+    padding-bottom: 6px;
+}
+
+.q-autor {
+    display: flex;
+    font-weight: 900;
+    justify-content: right;
+    font-size: 24px;
+}
+
+
