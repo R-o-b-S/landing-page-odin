@@ -211,3 +211,14 @@ a {
     width: fit-content;
     align-items: center;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 12px;
+}
